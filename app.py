@@ -11,7 +11,7 @@ from dash import (
 )
 from flask import request, Response
 
-openai.api_key = open("key.txt", "r").read().strip("\n")
+# openai.api_key = open("key.txt", "r").read().strip("\n")
 
 app = dash.Dash(__name__)
 
